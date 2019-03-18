@@ -1,0 +1,34 @@
+{
+  "name": "jb-router",
+  "description": "react mobx checkbox",
+  "author": {
+		"name": "mohammad javad bathaei",
+		"email": "javadbat@gmail.com"
+	},
+  "keywords": [
+    "jb",
+    "jb-checkbox",
+    "checkbox",
+    "react",
+    "mobx"
+  ],
+  "version": "0.0.1",
+  "bugs": "https://github.com/javadbat/jb-checkbox-react/issues",
+  "license": "MIT",
+  "files": [
+    "LICENSE",
+    "README.md",
+    "lib/",
+    "dist/"
+  ],
+  "main": "dist/JBCheckBox.cjs.min.js",
+  "jsnext:main":"./dist/JBCheckBox.min.js",
+  "module": "./dist/JBCheckBox.min.js",
+  "repository": {
+		"type": "git",
+		"url": "git@github.com:javadbat/jb-jb-checkbox-react.git"
+	},
+  "dependencies": {
+    "jb-modules": "jb-modules@0.0.1"
+  }
+}

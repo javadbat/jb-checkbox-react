@@ -1,0 +1,64 @@
+
+$curve: cubic-bezier(0.650, 0.000, 0.450, 1.000);
+
+.jb-check-box-component-wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    .caption{
+        display: inline-block;
+        padding: 0 0 0 8px;
+        font-weight: 400;
+        color: #535353;
+        transition: all 0.3s ease-in-out;
+        &.active{
+            transition: all 0.3s ease-in-out;
+            font-weight: 700;
+        }
+    }
+    .svg-wrapper{
+        width: 30px;
+        height: 30px;
+        margin-left: 8px;
+        .check-box-svg{
+            width: 30px;
+            height: 30px;
+            cursor: pointer;
+            
+            &.active{
+                .checkmark__cube{
+                    fill:#00dc55;
+                    transition: all 0.3s ease-in-out;
+                    rx:58;
+                    ry:58;
+                    stroke: transparent;
+                    
+                }
+                .checkmark__check{
+                    animation: stroke .3s $curve .1s forwards;
+                }
+            }
+            .checkmark__cube{
+                fill: #fff;
+                transition: all 0.3s ease-in-out;
+                stroke: #808080;
+                stroke-width: 1px;
+            }
+            .checkmark__check{
+                stroke-width: 5;
+                stroke: #fff;
+                transform-origin: 50% 50%;
+                stroke-dasharray: 48;
+                stroke-dashoffset: 48;
+                
+            }
+        }
+    }
+    @keyframes stroke {
+        100% {
+          stroke-dashoffset: 0;
+        }
+      }
+
+}

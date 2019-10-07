@@ -12,7 +12,7 @@
     "react",
     "mobx"
   ],
-  "version": "0.0.7",
+  "version": "0.0.8",
   "bugs": "https://github.com/javadbat/jb-checkbox-react/issues",
   "license": "MIT",
   "files": [

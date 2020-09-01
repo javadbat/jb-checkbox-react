@@ -1,1 +1,1 @@
-module.exports = require('./dist/JBCheckBox.js');
+module.exports = require('./dist/JBCheckbox.js');

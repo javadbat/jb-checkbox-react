@@ -12,7 +12,7 @@
     "react",
     "mobx"
   ],
-  "version": "0.0.8",
+  "version": "1.0.0",
   "bugs": "https://github.com/javadbat/jb-checkbox-react/issues",
   "license": "MIT",
   "files": [
@@ -21,22 +21,10 @@
     "lib/",
     "dist/"
   ],
-  "main": "dist/JBCheckBox.cjs.min.js",
-  "jsnext:main":"./dist/JBCheckBox.min.js",
-  "module": "./dist/JBCheckBox.min.js",
+  "main": "index.js",
   "repository": {
 		"type": "git",
 		"url": "git@github.com:javadbat/jb-checkbox-react.git"
-  },
-  "jspm": {
-    "main": "./dist/JBSwitch.systemjs.min.js",
-    "format":"register",
-    "files": [
-      "dist/JBCheckBox.systemjs.min.js",
-      "dist/JBCheckBox.css",
-      "LICENSE",
-      "README.md"
-    ]
   },
   "dependencies": {
   }

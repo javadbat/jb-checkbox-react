@@ -9,15 +9,15 @@
     "jb",
     "jb-checkbox",
     "checkbox",
-    "react",
-    "mobx"
+    "react"
   ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "bugs": "https://github.com/javadbat/jb-checkbox-react/issues",
   "license": "MIT",
   "files": [
     "LICENSE",
     "README.md",
+    "index.js",
     "lib/",
     "dist/"
   ],

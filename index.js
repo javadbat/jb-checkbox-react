@@ -1,1 +1,2 @@
-module.exports = require('./dist/JBCheckbox.js');
+import JBCheckbox from './dist/JBCheckbox.js';
+export default JBCheckbox;

@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import PropTypes from 'prop-types';
 import './JBCheckbox.scss';
-function JBCheckbox(props:any) {
+export function JBCheckbox(props:any) {
   const element = useRef<any>(null);
   const onClick = () => {
     const value = !props.value;
@@ -46,5 +46,3 @@ JBCheckbox.propTypes = {
   className: PropTypes.string,
 };
 
-
-export default JBCheckbox;

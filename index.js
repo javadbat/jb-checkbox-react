@@ -1,2 +1,1 @@
-import JBCheckbox from './dist/JBCheckbox.js';
-export default JBCheckbox;
+export {JBCheckbox} from './dist/JBCheckbox.js';
